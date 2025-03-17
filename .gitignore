@@ -41,7 +41,6 @@ typings/
 
 # Optional npm cache directory
 .npm
-.npm.*.local
 
 
 # Optional eslint cache
@@ -58,6 +57,8 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.*.local
+
 
 # next.js build output
 .next
