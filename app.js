@@ -3,6 +3,7 @@ import { PORT } from './config/env.js'
 import authRouter from "./routes/auth.routes.js";
 import userRouter from "./routes/user.routes.js";
 import subscriptionRouter from "./routes/subscription.routes.js";
+import connectToDatabase from "./database/mongoDB.js";
 
 const app = express();
 
@@ -17,4 +18,6 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server is listening on PORT ${PORT}`)
+
+  connectToDatabase()
 })
