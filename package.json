@@ -8,6 +8,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@arcjet/node": "^1.0.0-beta.4",
     "bcryptjs": "^3.0.2",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
