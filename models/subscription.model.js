@@ -86,3 +86,27 @@ subscriptionSchema.pre('save', function (next) {
 
 const Subscription = mongoose.model('Subscription', subscriptionSchema)
 export default Subscription;
+
+
+
+/*
+{
+  "success": true,
+  "data": {
+    "name": "Spotify Family",
+    "price": 12.99,
+    "currency": "USD",
+    "frequency": "monthly",
+    "category": "entertainment",
+    "paymentMethod": "paypal",
+    "status": "active",
+    "startDate": "2025-03-24T10:00:00.000Z",
+    "user": "67e37e12726c6add8333a276",
+    "_id": "67e37ec752cdf25ef97e430b",
+    "createdAt": "2025-03-26T04:12:55.210Z",
+    "updatedAt": "2025-03-26T04:12:55.210Z",
+    "renewalDate": "2025-04-23T10:00:00.000Z",
+    "__v": 0
+  }
+}
+*/

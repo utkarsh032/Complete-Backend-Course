@@ -74,10 +74,25 @@ export const SignIn = async (req, res, next) => {
 
 
 // Sign-Out User
+// Sign-Out User
 export const SignOut = async (req, res) => {
   try {
+    res.clearCookie("token", {
+      httpOnly: true,
+      secure: true,
+      sameSite: "None",
+    });
+
+    res.status(200).json({
+      success: true,
+      message: "User signed out successfully",
+    });
 
   } catch (error) {
-
+    res.status(500).json({
+      success: false,
+      message: "Failed to sign out",
+      error: error.message,
+    });
   }
-}
+};
