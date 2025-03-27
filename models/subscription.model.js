@@ -93,20 +93,23 @@ export default Subscription;
 {
   "success": true,
   "data": {
-    "name": "Spotify Family",
-    "price": 12.99,
-    "currency": "USD",
-    "frequency": "monthly",
-    "category": "entertainment",
-    "paymentMethod": "paypal",
-    "status": "active",
-    "startDate": "2025-03-24T10:00:00.000Z",
-    "user": "67e37e12726c6add8333a276",
-    "_id": "67e37ec752cdf25ef97e430b",
-    "createdAt": "2025-03-26T04:12:55.210Z",
-    "updatedAt": "2025-03-26T04:12:55.210Z",
-    "renewalDate": "2025-04-23T10:00:00.000Z",
-    "__v": 0
+    "subscription": {
+      "name": "Adobe Creative Cloud",
+      "price": 2999,
+      "currency": "INR",
+      "frequency": "yearly",
+      "category": "technology",
+      "paymentMethod": "Credit Card",
+      "status": "active",
+      "startDate": "2025-01-01T10:00:00.000Z",
+      "user": "67e54af6b4b187a0f52e2b29",
+      "_id": "67e54b9db4b187a0f52e2b2c",
+      "createdAt": "2025-03-27T12:59:09.151Z",
+      "updatedAt": "2025-03-27T12:59:09.151Z",
+      "renewalDate": "2026-01-01T10:00:00.000Z",
+      "__v": 0
+    },
+    "workflowRunId": "wfr_Oz3-O6bpi1SYlqAHmpZHX"
   }
 }
 */
