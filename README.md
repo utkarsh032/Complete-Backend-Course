@@ -2,6 +2,8 @@
 
 # 🛡️ Subscription Tracker Backend
 
+### 🌐 Deployed API URL: https://subscription-tracker-zb3s.onrender.com
+
 A subscription management system built using **Node.js**, **Express.js**, and **MongoDB**. This backend allows users to manage their subscriptions efficiently by creating, updating, and canceling subscriptions, while also handling authentication, workflow automation, and user management.
 
 ---
